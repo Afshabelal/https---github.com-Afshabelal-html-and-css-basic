@@ -1,31 +1,56 @@
-* { 
-    padding:0; margin:0
+** { 
+    padding:0px; 
+    margin:0px;
  }
 html,
 body,
 #fullheight {
-    min-height: 100% !important;
+    min-height: 100% ;
     height: 100%;
   }
-  .main-div {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    padding: 20px;
-    height: 400px;
-    background-color: blueviolet;
-  }
-  .inner-div {
-    width: 40px;
-    height: 40px;
-    background-color: brown;
-  }
-  
-  .inside-flex {
+  **{
+    padding: 0px;
+    margin: 0px;
+}
+html,body,#fullheight{
+    min-height: 100%;
+    height:  100%;
+}
+.container{
+    font-size: 35px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-  }
-  .middle-div {
+     justify-content: space-evenly;
+      border : 1vh solid ;
+   flex-direction: row;
+      align-items: center;
+  gap: 1px;
+  background-color: rgb(67, 67, 189);
+   }
+   .container1{
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
-  }
+    border: 1vh solid;
+    flex-direction: row;
+    align-items: center;
+    gap: 1px;
+    background-color: rgb(67, 67, 189);
+   }
+   .container1{
+   font-size: 35px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   border: 1vh solid;
+   flex-direction: column;
+   align-items: center;
+   height: 450px;
+   gap: 1px;
+   background-color: lightblue;
+   }
+   .block{
+    background-color: white !important;
+   }
+   

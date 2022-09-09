@@ -8,9 +8,9 @@
     min-height: 100% !important;
     height: 100%;
   }
+
   
-  
-  .main-dev {
+  .main-div {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
